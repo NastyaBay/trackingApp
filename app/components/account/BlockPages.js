@@ -9,8 +9,8 @@ const BlockPages = (props) => {
     <Container className={`blockPages ${props.className}`}>
         <h2 className='h2-block'>{props.name}</h2>
         {props.isAdd && <ButtonPageAdd />}
-        <ButtonPage href='/page'/>
-        <ButtonPage />
+        <ButtonPage href={props.href} text={props.text1}/>
+        <ButtonPage text={props.text2}/>
     </Container>
   )
 }

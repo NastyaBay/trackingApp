@@ -69,7 +69,7 @@ export default function Page() {
 
 	return (
 		<>
-			<Navibar name1='Конструктор' name2='Статистика' />
+			<Navibar name1='Конструктор' name2='Статистика' href2='/page/statistic'/>
 			<div className='bodyConstr'>
 				<ContainerCast className={display.className}>
 					{blocks.map((block, index) => (

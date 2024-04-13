@@ -46,7 +46,7 @@ export default function Form() {
 
 	return (
 		<>
-			<Navibar name1='Конструктор формы' name2='Ответы' name3='Ссылка' href3={handleShowQr} />
+			<Navibar name1='Конструктор формы' name2='Ответы' name3='Ссылка' href3={handleShowQr} href2='/form/answer'/>
 
 			<Container className='bodyForm'>
 				<ContainerCast className='blockForm'>
